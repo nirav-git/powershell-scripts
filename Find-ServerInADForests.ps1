@@ -1,4 +1,4 @@
-# Searches for server computer objects across all trusted AD domains/forests
+# Searches for server computer objects across all trusted AD domains & forests
 
 $servers = @("SERVER_NAME")
 
