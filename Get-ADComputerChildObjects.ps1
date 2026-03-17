@@ -1,7 +1,6 @@
-# Get-ADComputerChildObjects.ps1
-# Retrieves all child AD objects under a computer account in Active Directory
+# Retrieves all child AD objects under a server account in Active Directory
 
-$computerName = "COMPUTER_NAME"
+$computerName = "SERVER/COMPUTER_NAME"
 $serverName = "domain.controller.fqdn"
 
 Get-ADComputer -Identity $computerName -Server $serverName | ForEach-Object {
